@@ -2,3 +2,27 @@ html {
   -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.nav-menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(191, 152, 204);
+  padding: 10px;
+}
+
+.nav-button {
+  display: inline-block;
+  text-align: center;
+  /* background-color: rgb(191, 152, 204); */
+  color: rgb(46, 26, 53);
+  padding: 10px;
+  margin: 20px, auto;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-button:hover {
+  background-color: rgb(149, 122, 158);
+  color: rgba(249, 212, 250, 0.836);
+  border-radius: 5px;
+}
